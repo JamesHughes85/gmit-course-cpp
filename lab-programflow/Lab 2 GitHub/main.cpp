@@ -6,7 +6,9 @@ using namespace std;
 
 int main()
 {
-   LabInfo();
+    LabInfo();//task 1
+
+    LargerNum();//task 2
 
     return 0;
 }
