@@ -10,5 +10,7 @@ int main()
 
     LargerNum();//task 2
 
+    NumCheck ();//task 3
+
     return 0;
 }
