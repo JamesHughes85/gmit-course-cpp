@@ -2,10 +2,11 @@
 using namespace std;
 #include "functions.h"
 
+
+
 int main()
 {
-    HelloFunction();
-    HelloFunction(2);
+   LabInfo();
 
     return 0;
 }
