@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
     HelloFunction();
+    HelloFunction(2);
 
     return 0;
 }
