@@ -24,28 +24,35 @@ int main()
     cin >> Age;
     switch (Age){
     case 1:
-    cout <<"you are a baby!" <<endl;
+    cout <<"you are a baby!\n" <<endl;
     break;
     case 2:
     cout << "Best years of your life!"<< endl;
     break;
     case 3:
-    cout << "Enjoy these years!"<< endl;
+    cout << "Enjoy these years!\n"<< endl;
     break;
     case 4:
-    cout << "It could be worse!"<< endl;
+    cout << "It could be worse!\n"<< endl;
     break;
     case 5:
-    cout << "Youth is wasted on the young!"<< endl;
+    cout << "Youth is wasted on the young!\n"<< endl;
     break;
     case 6:
-    cout << "The Golden years!"<< endl;
+    cout << "The Golden years!\n"<< endl;
     break;
     case 7:
-    cout << "Fair play!"<< endl;
+    cout << "Fair play!\n"<< endl;
     break;
     default:
-    cout <<"Please pick a option between 1 and 7 and hit enter:"<< endl;
+    cout <<"Please pick a option between 1 and 7 and hit enter:\n"<< endl;
     return 0;
 }
+    AreaOfCir ();//task 5
+
+    AreaOfRec ();//task 6
+
+
 }
+
+
