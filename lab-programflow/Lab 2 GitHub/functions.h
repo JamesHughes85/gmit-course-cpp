@@ -8,27 +8,30 @@ void HelloFunction (int val) {
 }
 
 void LabInfo() {// Task 1 - Lab Info
+    cout <<" Question 1:" <<endl;
     cout << " James Hughes\n";
     cout << " Lab #2\n" << endl;
 }
 
 void LargerNum () {//Task 2 - Larger Number return
+    cout <<" Question 2:" <<endl;
     float x,y;
     cout <<" Enter first number and hit return\n" << endl;
     cin >>x;
     cout <<" Enter second number and hit return\n" << endl;
     cin >>y;
     if (x>y){
-    cout << x << " is the larger number\n"<< endl;
+    cout <<" "<< x << " is the larger number\n"<< endl;
     }
     else if (x<y){
-    cout << y << " is the larger number\n" << endl;
+    cout <<" "<< y << " is the larger number\n" << endl;
     }
     else{
     cout << " Both numbers are equal\n" << endl;}
     }
 void NumCheck () {//Task 3 - Check that the number is between 1 and 100
     float x;
+    cout <<" Question 3:" <<endl;
     cout << " Enter a number and hit return\n"<< endl;
     cin >>x;
     if (x=1&&x<=100){
@@ -41,16 +44,16 @@ void NumCheck () {//Task 3 - Check that the number is between 1 and 100
 }
 void AreaOfCir () { //Task 5 - Area of a circle
     float radius, area;
-    cout << "Enter the radius of the circle: \n ";
+    cout << " Enter the radius of the circle: \n ";
     cin >> radius;
     area = 3.14 * radius * radius;
     cout << " The Area of circle is: \n"<< area <<endl;}
 
 void AreaOfRec () { //Task 6
     float lenght, width, area;
-    cout << "Enter the lenght of the rectangle \n: ";
+    cout << " Enter the lenght of the rectangle \n: ";
     cin >> lenght;
-    cout << "Enter the width of the rectangle \n: ";
+    cout << " Enter the width of the rectangle \n: ";
     cin >> width;
     area = lenght * width;
     cout << " The Area of rectangle is: \n"<< area <<endl;}
@@ -69,7 +72,12 @@ void TempHum () { //Task 7
     cout <<"WARNING! HUMIDITY LEVEL HIGH" <<endl; }
     else {
     cout <<"Humidity level is normal"<<endl; }
-
 }
-
-
+void CircleAreaLoop () {
+    int startRadius=0;
+    int finishRadius=120;
+    float pi=3.14;
+    float area;
+    for (int s=startRadius;s<=finishRadius;s++){
+    area=pi*s*s;
+    cout <<" When radius = "<<s<<" the area of the circle is "<<area<<" meters squared"<<endl;} }

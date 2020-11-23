@@ -14,6 +14,7 @@ int main()
 //task 4 - Switch Statement
 
     int choice;
+    cout <<" Question 4:" <<endl;
     cout << " Are you aged between  0 and 10?  -please press 1" << endl;
     cout << " Are you aged between 11 and 20?  -please press 2" << endl;
     cout << " Are you aged between 21 and 30?  -please press 3" << endl;
@@ -24,39 +25,38 @@ int main()
     cin >> choice;
     switch (choice){
     case 1:
-    cout <<"you are a baby!\n" <<endl;
+    cout <<" you are a baby!\n" <<endl;
     break;
     case 2:
-    cout << "Best years of your life!\n"<< endl;
+    cout << " Best years of your life!\n"<< endl;
     break;
     case 3:
-    cout << "Enjoy these years!\n"<< endl;
+    cout << " Enjoy these years!\n"<< endl;
     break;
     case 4:
-    cout << "It could be worse!\n"<< endl;
+    cout << " It could be worse!\n"<< endl;
     break;
     case 5:
-    cout << "Youth is wasted on the young!\n"<< endl;
+    cout << " Youth is wasted on the young!\n"<< endl;
     break;
     case 6:
-    cout << "The Golden years!\n"<< endl;
+    cout << " The Golden years!\n"<< endl;
     break;
     case 7:
-    cout << "Fair play!\n"<< endl;
+    cout << " Fair play!\n"<< endl;
     break;
     default:
-    cout <<"Your selection was invalid:\n"<< endl;
+    cout <<" Your selection was invalid:\n"<< endl;
     return 0;
 }
+    cout <<" Question 5:" <<endl;
     AreaOfCir ();//task 5
-
+    cout <<" Question 6:" <<endl;
     AreaOfRec ();//task 6
-
+    cout <<" Question 7:" <<endl;
     TempHum (); //task 7
-
-
-
+    cout <<" Question 8:" <<endl;
+    CircleAreaLoop ();//task 8
 
 }
-
 
