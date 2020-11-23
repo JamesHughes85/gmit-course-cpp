@@ -54,3 +54,8 @@ void AreaOfRec () { //Task 6
     cin >> width;
     area = lenght * width;
     cout << " The Area of rectangle is: \n"<< area <<endl;}
+
+void TempHum () { //Task 7
+    float temp, humidity;
+    cout <<
+
