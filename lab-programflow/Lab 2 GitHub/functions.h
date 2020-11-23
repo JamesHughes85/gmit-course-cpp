@@ -16,29 +16,29 @@ void LabInfo() {// Task 1 - Lab Info
 void LargerNum () {//Task 2 - Larger Number return
     cout <<" Question 2:" <<endl;
     float x,y;
-    cout <<" Enter first number and hit return\n" << endl;
+    cout <<" Enter first number and hit return:\n" << endl;
     cin >>x;
-    cout <<" Enter second number and hit return\n" << endl;
+    cout <<" Enter second number and hit return:\n" << endl;
     cin >>y;
     if (x>y){
-    cout <<" "<< x << " is the larger number\n"<< endl;
+    cout <<" "<< x << " is the larger number.\n"<< endl;
     }
     else if (x<y){
-    cout <<" "<< y << " is the larger number\n" << endl;
+    cout <<" "<< y << " is the larger number.\n" << endl;
     }
     else{
-    cout << " Both numbers are equal\n" << endl;}
+    cout << " Both numbers are equal.\n" << endl;}
     }
 void NumCheck () {//Task 3 - Check that the number is between 1 and 100
     float x;
     cout <<" Question 3:" <<endl;
-    cout << " Enter a number and hit return\n"<< endl;
+    cout << " Enter a number and hit return:\n"<< endl;
     cin >>x;
     if (x=1&&x<=100){
-    cout <<" This number is between 1 and 100\n" << endl;
+    cout <<" This number is between 1 and 100.\n" << endl;
     }
     else{
-    cout <<" This number is out of range\n"<< endl;
+    cout <<" This number is out of range!\n"<< endl;
 
 }
 }
@@ -69,11 +69,11 @@ void TempHum () { //Task 7
     cout <<"Please enter the percentage Humidity and hit return:"<<endl;
     cin >> humidity;
     if (humidity>=90) {
-    cout <<"WARNING! HUMIDITY LEVEL HIGH" <<endl; }
+    cout <<"WARNING! HUMIDITY LEVEL HIGH/n" <<endl; }
     else {
-    cout <<"Humidity level is normal"<<endl; }
+    cout <<"Humidity level is normal/n"<<endl; }
 }
-void CircleAreaLoop () {
+void CircleAreaLoop () {//task 8
     int startRadius=0;
     int finishRadius=120;
     float pi=3.14;
@@ -81,3 +81,23 @@ void CircleAreaLoop () {
     for (int s=startRadius;s<=finishRadius;s++){
     area=pi*s*s;
     cout <<" When radius = "<<s<<" the area of the circle is "<<area<<" meters squared"<<endl;} }
+
+void TempConversion () {//task 9
+    float Celcius, Fahrenheit, Answer;
+    int selection;
+    cout <<" If you wish to covert Celcius to Fahrenheit please press 1 and hit return:"<< endl;
+    cout <<" If you wish to covert Fahrenheit to Celcius please press 2 and hit return: \n"<<endl;
+    cin >> selection;
+    if (selection==1) {
+    cout << " Enter value in degrees Celcius and hit reture:/n"<<endl;
+    cin >> Celcius;
+    Answer=((Celcius*9/5)+32);
+    cout <<" The answer is " << Answer<< " Degrees Fahrenheit./n"<<endl;}
+    else if (selection==2) {
+    cout <<" Enter value in degrees Fahrenheit and hit reture:/n"<<endl;
+    cin >> Fahrenheit;
+    Answer=((Fahrenheit-32)*5/9);
+    cout <<" The answer is " << Answer<< " Degrees Celcius."<<endl;}
+}
+
+

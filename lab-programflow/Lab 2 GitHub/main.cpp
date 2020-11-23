@@ -51,12 +51,18 @@ int main()
 }
     cout <<" Question 5:" <<endl;
     AreaOfCir ();//task 5
+
     cout <<" Question 6:" <<endl;
     AreaOfRec ();//task 6
+
     cout <<" Question 7:" <<endl;
     TempHum (); //task 7
+
     cout <<" Question 8:" <<endl;
     CircleAreaLoop ();//task 8
+
+    cout <<" Question 9:" <<endl;
+    TempConversion ();//task 9
 
 }
 
