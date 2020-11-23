@@ -13,21 +13,21 @@ int main()
 
 //task 4 - Switch Statement
 
-    int Age;
-    cout << "If you are aged between 0  and 10  please press 1" << endl;
-    cout << "If you are aged between 11 and 20  please press 2" << endl;
-    cout << "If you are aged between 21 and 30  please press 3" << endl;
-    cout << "If you are aged between 31 and 60  please press 4" << endl;
-    cout << "If you are aged between 61 and 80  please press 5" << endl;
-    cout << "If you are aged between 81 and 100 please press 6" << endl;
-    cout << "If you are aged between 101 and ?  please press 7" << endl;
-    cin >> Age;
-    switch (Age){
+    int choice;
+    cout << " Are you aged between  0 and 10?  -please press 1" << endl;
+    cout << " Are you aged between 11 and 20?  -please press 2" << endl;
+    cout << " Are you aged between 21 and 30?  -please press 3" << endl;
+    cout << " Are you aged between 31 and 60?  -please press 4" << endl;
+    cout << " Are you aged between 61 and 80?  -please press 5" << endl;
+    cout << " Are you aged between 81 and 100? -please press 6" << endl;
+    cout << " Are you aged older than 101????? -please press 7" << endl;
+    cin >> choice;
+    switch (choice){
     case 1:
     cout <<"you are a baby!\n" <<endl;
     break;
     case 2:
-    cout << "Best years of your life!"<< endl;
+    cout << "Best years of your life!\n"<< endl;
     break;
     case 3:
     cout << "Enjoy these years!\n"<< endl;
@@ -45,12 +45,14 @@ int main()
     cout << "Fair play!\n"<< endl;
     break;
     default:
-    cout <<"Please pick a option between 1 and 7 and hit enter:\n"<< endl;
+    cout <<"Your selection was invalid:\n"<< endl;
     return 0;
 }
     AreaOfCir ();//task 5
 
     AreaOfRec ();//task 6
+
+    TempHum (); //task 7
 
 
 

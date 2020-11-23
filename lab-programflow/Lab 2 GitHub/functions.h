@@ -17,7 +17,7 @@ void LargerNum () {//Task 2 - Larger Number return
     cout <<" Enter first number and hit return\n" << endl;
     cin >>x;
     cout <<" Enter second number and hit return\n" << endl;
-    cin>>y;
+    cin >>y;
     if (x>y){
     cout << x << " is the larger number\n"<< endl;
     }
@@ -57,5 +57,19 @@ void AreaOfRec () { //Task 6
 
 void TempHum () { //Task 7
     float temp, humidity;
-    cout <<
+    cout <<"Please enter the temperature in degrees Fahrenheit and hit return:"<< endl;
+    cin >>temp;
+    if (temp>=95) {
+    cout <<"WARNING! TEMPERATURE IS HIGH" <<endl; }
+    else {
+    cout << "The temperature is ok"<<endl; }
+    cout <<"Please enter the percentage Humidity and hit return:"<<endl;
+    cin >> humidity;
+    if (humidity>=90) {
+    cout <<"WARNING! HUMIDITY LEVEL HIGH" <<endl; }
+    else {
+    cout <<"Humidity level is normal"<<endl; }
+
+}
+
 
