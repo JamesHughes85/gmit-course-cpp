@@ -70,5 +70,15 @@ int main()
     cout <<" Question 11:" <<endl;
     OddNum ();//task 11
 
+    cout <<" Question 12:" <<endl;
+    int ArraySize;
+    cout<<"Enter the number of integers in the Array and hit return:"<<endl;
+    cin>> ArraySize;
+    int theArray [ArraySize];
+    for (int i=0;i<ArraySize;i++){
+    cout<<"Enter number "<< i+1 <<" of the array and hit return: "<<endl;
+    cin>> theArray[i];}
+    OddNum (theArray,ArraySize);
 }
+
 

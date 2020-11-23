@@ -123,3 +123,12 @@ void OddNum () {//Task 11
     else {
     cout<<" "<<y<< " is even." <<endl;}
     }
+
+void OddNum (int theArray [],int ArraySize){
+    for(int i=0;i<ArraySize;i++){
+    if (theArray[i]%2!=0){
+    cout<<"The number "<< theArray[i] <<" is odd.\n";}}}
+
+
+
+
