@@ -67,7 +67,8 @@ int main()
     cout <<" Question 10:" <<endl;
     EvenNum ();//task 10
 
-
+    cout <<" Question 11:" <<endl;
+    OddNum ();//task 11
 
 }
 
