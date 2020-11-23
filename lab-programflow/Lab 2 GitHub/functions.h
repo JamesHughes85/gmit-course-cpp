@@ -98,6 +98,12 @@ void TempConversion () {//task 9
     cin >> Fahrenheit;
     Answer=((Fahrenheit-32)*5/9);
     cout <<" The answer is " << Answer<< " Degrees Celcius."<<endl;}
+    else {
+    cout <<" You must select either 1 or 2:" <<endl;}
 }
 
-
+void EvenNum () {//task 10
+    for(int even=1;even<=1000;even++) {
+    if (even%2==0) {
+    cout <<even; }
+    }}

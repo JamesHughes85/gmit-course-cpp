@@ -64,5 +64,10 @@ int main()
     cout <<" Question 9:" <<endl;
     TempConversion ();//task 9
 
+    cout <<" Question 10:" <<endl;
+    EvenNum ();//task 10
+
+
+
 }
 
