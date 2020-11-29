@@ -8,13 +8,13 @@ void HelloFunction (int val) {
 }
 
 void LabInfo() {// Task 1 - Lab Info
-    cout <<" Question 1:" <<endl;
+    cout <<" Question 1: Lab Info:\n";
     cout << " James Hughes\n";
     cout << " Lab #2\n" << endl;
 }
 
 void LargerNum () {//Task 2 - Larger Number return
-    cout <<" Question 2:" <<endl;
+    cout <<" Question 2: Find the larger number.\n";
     float x,y;
     cout <<" Enter first number and hit return:\n" << endl;
     cin >>x;
@@ -31,7 +31,7 @@ void LargerNum () {//Task 2 - Larger Number return
     }
 void NumCheck () {//Task 3 - Check that the number is between 1 and 100
     float x;
-    cout <<" Question 3:" <<endl;
+    cout <<" Question 3: Is this number between 1 and 100?" <<endl;
     cout << " Enter a number and hit return:\n"<< endl;
     cin >>x;
     if (x=1&&x<=100){

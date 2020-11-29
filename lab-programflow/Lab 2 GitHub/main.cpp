@@ -7,21 +7,24 @@ int main()
 {
     LabInfo();//task 1
 
+    system("pause");
     LargerNum();//task 2
 
+    system("pause");
     NumCheck ();//task 3
 
-//task 4 - Switch Statement
+
+    system("pause");//task 4 - Switch Statement
 
     int choice;
-    cout <<" Question 4:" <<endl;
-    cout << " Are you aged between  0 and 10?  -please press 1" << endl;
-    cout << " Are you aged between 11 and 20?  -please press 2" << endl;
-    cout << " Are you aged between 21 and 30?  -please press 3" << endl;
-    cout << " Are you aged between 31 and 60?  -please press 4" << endl;
-    cout << " Are you aged between 61 and 80?  -please press 5" << endl;
-    cout << " Are you aged between 81 and 100? -please press 6" << endl;
-    cout << " Are you aged older than 101????? -please press 7" << endl;
+    cout <<" Question 4: Age range Switch Statement.\n";
+    cout << " Are you aged between  0 and 10?  -please press 1:\n";
+    cout << " Are you aged between 11 and 20?  -please press 2:\n";
+    cout << " Are you aged between 21 and 30?  -please press 3:\n";
+    cout << " Are you aged between 31 and 60?  -please press 4:\n";
+    cout << " Are you aged between 61 and 80?  -please press 5:\n";
+    cout << " Are you aged between 81 and 100? -please press 6:\n";
+    cout << " Are you aged older than 101????? -please press 7:\n";
     cin >> choice;
     switch (choice){
     case 1:
@@ -48,29 +51,38 @@ int main()
     default:
     cout <<" Your selection was invalid:\n"<< endl;
     return 0;
+
 }
-    cout <<" Question 5:" <<endl;
+    system("pause");
+    cout <<" Question 5: Area of a circle.\n";
     AreaOfCir ();//task 5
 
-    cout <<" Question 6:" <<endl;
+    system("pause");
+    cout <<" Question 6: Area of a rectangle.\n";
     AreaOfRec ();//task 6
 
-    cout <<" Question 7:" <<endl;
+    system("pause");
+    cout <<" Question 7: Temperature and Humidity." <<endl;
     TempHum (); //task 7
 
-    cout <<" Question 8:" <<endl;
+    system("pause");
+    cout <<" Question 8: Circle Area Loop." <<endl;
     CircleAreaLoop ();//task 8
 
-    cout <<" Question 9:" <<endl;
+    system("pause");
+    cout <<" Question 9: Temperature Converter." <<endl;
     TempConversion ();//task 9
 
-    cout <<" Question 10:" <<endl;
+    system("pause");
+    cout <<" Question 10: Even Numbers." <<endl;
     EvenNum ();//task 10
 
-    cout <<" Question 11:" <<endl;
+    system("pause");
+    cout <<" Question 11: Odd Numbers." <<endl;
     OddNum ();//task 11
 
-    cout <<" Question 12:" <<endl;
+    system("pause");
+    cout <<" Question 12: Enter an Array and find the odd numbers." <<endl;
     int ArraySize;
     cout<<"Enter the number of integers in the Array and hit return:"<<endl;
     cin>> ArraySize;
