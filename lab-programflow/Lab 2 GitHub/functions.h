@@ -31,7 +31,7 @@ void LargerNum () {//Task 2 - Larger Number return
     }
 void NumCheck () {//Task 3 - Check that the number is between 1 and 100
     float x;
-    cout <<" Question 3: Is this number between 1 and 100?" <<endl;
+    cout <<" Question 3: Is this number between 1 and 100?\n";
     cout << " Enter a number and hit return:\n"<< endl;
     cin >>x;
     if (x=1&&x<=100){
@@ -89,12 +89,12 @@ void TempConversion () {//task 9
     cout <<" If you wish to covert Fahrenheit to Celcius please press 2 and hit return: \n"<<endl;
     cin >> selection;
     if (selection==1) {
-    cout << " Enter value in degrees Celcius and hit reture:\n"<<endl;
+    cout << " Enter value in degrees Celcius and hit return:\n"<<endl;
     cin >> Celcius;
     Answer=((Celcius*9/5)+32);
     cout <<" The answer is " << Answer<< " Degrees Fahrenheit.\n"<<endl;}
     else if (selection==2) {
-    cout <<" Enter value in degrees Fahrenheit and hit reture:\n"<<endl;
+    cout <<" Enter value in degrees Fahrenheit and hit return:\n"<<endl;
     cin >> Fahrenheit;
     Answer=((Fahrenheit-32)*5/9);
     cout <<" The answer is " << Answer<< " Degrees Celcius."<<endl;}

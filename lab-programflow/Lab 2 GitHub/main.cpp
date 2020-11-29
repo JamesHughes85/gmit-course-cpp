@@ -28,28 +28,28 @@ int main()
     cin >> choice;
     switch (choice){
     case 1:
-    cout <<" you are a baby!\n" <<endl;
+    cout <<" you are a baby!\n";
     break;
     case 2:
-    cout << " Best years of your life!\n"<< endl;
+    cout << " Best years of your life!\n";
     break;
     case 3:
-    cout << " Enjoy these years!\n"<< endl;
+    cout << " Enjoy these years!\n";
     break;
     case 4:
-    cout << " It could be worse!\n"<< endl;
+    cout << " It could be worse!\n";
     break;
     case 5:
-    cout << " Youth is wasted on the young!\n"<< endl;
+    cout << " Youth is wasted on the young!\n";
     break;
     case 6:
-    cout << " The Golden years!\n"<< endl;
+    cout << " The Golden years!\n";
     break;
     case 7:
-    cout << " Fair play!\n"<< endl;
+    cout << " Fair play!\n";
     break;
     default:
-    cout <<" Your selection was invalid:\n"<< endl;
+    cout <<" Your selection was invalid:\n";
     return 0;
 
 }
@@ -62,33 +62,33 @@ int main()
     AreaOfRec ();//task 6
 
     system("pause");
-    cout <<" Question 7: Temperature and Humidity." <<endl;
+    cout <<" Question 7: Temperature and Humidity.\n";
     TempHum (); //task 7
 
     system("pause");
-    cout <<" Question 8: Circle Area Loop." <<endl;
+    cout <<" Question 8: Circle Area Loop.\n";
     CircleAreaLoop ();//task 8
 
     system("pause");
-    cout <<" Question 9: Temperature Converter." <<endl;
+    cout <<" Question 9: Temperature Converter.\n";
     TempConversion ();//task 9
 
     system("pause");
-    cout <<" Question 10: Even Numbers." <<endl;
+    cout <<" Question 10: Even Numbers.\n";
     EvenNum ();//task 10
 
     system("pause");
-    cout <<" Question 11: Odd Numbers." <<endl;
+    cout <<" Question 11: Odd Numbers.\n";
     OddNum ();//task 11
 
     system("pause");
-    cout <<" Question 12: Enter an Array and find the odd numbers." <<endl;
+    cout <<" Question 12: Enter an Array and find the odd numbers.\n";
     int ArraySize;
-    cout<<"Enter the number of integers in the Array and hit return:"<<endl;
+    cout<<"Enter the number of integers in the Array and hit return:\n";
     cin>> ArraySize;
     int theArray [ArraySize];
     for (int i=0;i<ArraySize;i++){
-    cout<<"Enter number "<< i+1 <<" of the array and hit return: "<<endl;
+    cout<<"Enter number "<< i+1 <<" of the array and hit return:\n";
     cin>> theArray[i];}
     OddNum (theArray,ArraySize);
 }
