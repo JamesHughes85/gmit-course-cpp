@@ -108,11 +108,10 @@ int main()
     cout <<" Question 13: Generate 6 Random numbers between 1 and 1000.\n";
     RandomNums ();// task 13
 
-    // 14. Create functions by copying-and-pasting the example code, fix the issues to get it working, declare variables etc.
+    //14.Create functions by copying-and-pasting the example code, fix the issues to get it working, declare variables etc
     system("pause");
-    cout <<" Question 14: Code Fix.\n";
+    cout <<" Question 14: CodeFix.\n";
     CodeFix (); //task 14
-
 
     // 15. Create a function that will print “finished” 10 time, using 3 ways, for , while and a do while loops.
     system("pause");

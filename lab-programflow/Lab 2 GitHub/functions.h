@@ -135,29 +135,49 @@ void RandomNums(){// Task 13
     cout<<Random<<"\n"; } }
 
 void CodeFix(){// Task 14
-    int i=5;
-    while (i < 10){
-    cout << i ;
+    /* Print the numbers 5 through 9: */
+    int i ;
+    i=5;
+    while (i < 10)
+    {
+    cout << i;
     cout << endl;
-    i = i + 1;}
-    cout<<"\n";
+    i = i + 1;
+    }
+    /* Finding the sum 1 + 2 + 3 + ... + 20 */
     i = 1;
     int sum = 0;
-    while (i <= 20){
-    sum = sum + i;}
-    cout << "The sum = " << sum<<"\n\n";
-    sum = 0;
-    int count = 0;
+    while (i <= 20)
+    {
+    sum = sum + i;
+    i = i + 1;
+    }
+    cout << "\n\nThe sum of numbers 1 to 20 is  = " << sum;
+
+    /* Average a list of grades terminated by -1 */
+
+    float sum1 ;
+    float count ;
     int grade;
-    cout << "Enter grade (-1 to end): ";
+    count = 0;
+    cout << "\n\nEnter 1st grade (-1 to end): "; // prompt user for grade
+    cin >> grade; // read grade
+    while (grade != -1)
+    {
+    sum1 = sum1 + grade;
+    count = count + 1 ;
+
+    /* Get next grade */
+
+    cout << "Enter next grade (-1 to end): ";
     cin >> grade;
-    while (grade != -1){
-    sum = sum + grade;
-    count = count + 1;
-    cout << "Enter grade (-1 to end): ";
-    cin >> grade;}
-    if (count > 0){
-     cout << "Average is " << (double) sum / count<<"\n";}}
+
+    }
+
+
+    if (count > 0)
+
+    cout << "Average grade is " <<  sum1 / count << "%";}
 
 
 void LastOne(){// Task 15
