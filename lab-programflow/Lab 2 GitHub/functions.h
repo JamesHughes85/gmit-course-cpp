@@ -117,17 +117,70 @@ void OddNum () {//Task 11
     if (x%2!=0){
     cout<<" "<< x <<" is odd."<<endl;}
     else {
-    cout<<" "<<x<< "is even." <<endl;}
+    cout<<" "<<x<< " is even." <<endl;}
     if (y%2!=0){
     cout <<" " << y <<" is odd\n"<<endl;}
     else {
     cout<<" "<<y<< " is even." <<endl;}
     }
 
-void OddNum (int theArray [],int ArraySize){
+void OddNum (int theArray [],int ArraySize){ //Task 12
     for(int i=0;i<ArraySize;i++){
     if (theArray[i]%2!=0){
     cout<<"The number "<< theArray[i] <<" is odd.\n";}}}
+
+void RandomNums(){// Task 13
+    for(int x=1;x<=6;x++){
+    int Random=rand()%1000+1;
+    cout<<Random<<"\n"; } }
+
+void CodeFix(){// Task 14
+    int i=5;
+    while (i < 10){
+    cout << i ;
+    cout << endl;
+    i = i + 1;}
+    cout<<"\n";
+    i = 1;
+    int sum = 0;
+    while (i <= 20){
+    sum = sum + i;}
+    cout << "The sum = " << sum<<"\n\n";
+    sum = 0;
+    int count = 0;
+    int grade;
+    cout << "Enter grade (-1 to end): ";
+    cin >> grade;
+    while (grade != -1){
+    sum = sum + grade;
+    count = count + 1;
+    cout << "Enter grade (-1 to end): ";
+    cin >> grade;}
+    if (count > 0){
+     cout << "Average is " << (double) sum / count<<"\n";}}
+
+
+void LastOne(){// Task 15
+    int i=1;
+    while(i<=10){
+    cout<<"Finished\n";
+    i=i+1;}
+    cout<<"\n";
+    for(int a=1;a<=10;a++){
+    cout<<"Finished\n";}
+    cout<<"\n";
+    i=1;
+    do{
+    cout<<"Finished\n";
+    i=i+1;}
+    while (i<=10);}
+
+
+
+
+
+
+
 
 
 
