@@ -1,7 +1,8 @@
 # depslib dependency file v1.0
-1607690267 source:c:\users\home\gmit_courses\gmit-course-cpp\lab-programarrayptr\lab3\main.cpp
+1608048118 source:c:\users\home\gmit_courses\gmit-course-cpp\lab-programarrayptr\lab3\main.cpp
 	<iostream>
+	<string>
 	"functions.h"
 
-1607690315 c:\users\home\gmit_courses\gmit-course-cpp\lab-programarrayptr\lab3\functions.h
+1608048096 c:\users\home\gmit_courses\gmit-course-cpp\lab-programarrayptr\lab3\functions.h
 
