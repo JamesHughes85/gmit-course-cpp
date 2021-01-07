@@ -3,36 +3,34 @@ using namespace std;
 #include <string>
 #include "functions.h"
 
-int main()
-{
-LabInfo(); //Task 1
+int main() {
+    cout<<"Task 1:\n\n";
 
-system("pause");
+    LabInfo(); //Task 1
 
-//Task 2
-cout<<"\nQuestion 2.\n";
-    int Array[6];
-    int x;
-    int sca;
-    int w;
-    cout<<"Please Enter in 6 Numbers:\n";
-    for (int n=0;n<6;n++){
-    cout<<"Please Enter number and hit Return: ";
-    cin>>Array[n];
-    if(Array[n]>100||Array[n]<0){
-    n=x;
-    cout<<"Number must be between 0 and 100!\n";}
-    }
-    cout<<"The Array you Entered is: ";
-    for (int n=0;n<6;n++){
-    cout<<Array[n]<<",";
-}
-system("pause\n");
+    system("pause");
 
-cout <<"Task 7\n"<<endl;
+    cout<<"\nTask 2.\n\n";
 
-Tree();
+    NumAndMem ();//Task 2
 
+    system("pause");
+
+    cout<<"Task 3:\n\n";
+
+    ArrayAddress ();//Task 3
+
+    system("pause\n");
+
+    cout<<"Task 4:\n\n";
+
+    Scaler ();//Task 4
+
+    system("pause\n");
+
+    cout <<"Task 7\n\n"<<endl;
+
+    Tree();//Task7
 
 return 0;
 }
