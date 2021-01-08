@@ -40,6 +40,13 @@ void Scaler(){
     cout<<endl;
 }
 
+void ArrayReference(int* ArrayRef,int n,int* ScalarNumRef){
+    for (int i=0;i<n;i++){
+    Array[i]=(Array[i])*(ScalarNum);
+    }
+    cout<<endl;
+}
+
 void Tree () { //Task 7 Function
     char cTree;
     int iSize;

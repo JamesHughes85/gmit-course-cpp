@@ -28,9 +28,20 @@ int main() {
 
     system("pause\n");
 
+    cout<<"Task 5:\n\n";
+
+    ArrayReference (&Array[0],6,&ScalarNum);//Task 5
+
+    cout<<"Task 6:\n\n";
+
+    ArrayAddress (); //Task 6
+
+
     cout <<"Task 7\n\n"<<endl;
 
     Tree();//Task7
+
+    cout<<"HAPPY NEW YEAR"<<endl;
 
 return 0;
 }
