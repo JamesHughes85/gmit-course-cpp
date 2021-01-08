@@ -34,17 +34,17 @@ void ArrayAddress() { //Task 3 Function
         }
     }}
 
-void Scaler(){
+void Scaler(){//Task 4
     cout<<"Enter Scalar Number and hit Enter: ";
     cin>>ScalarNum;
     cout<<endl;
 }
 
-void ArrayReference(int* ArrayRef,int n,int* ScalarNumRef){
+void ArrayReference(int* ArrayRef,int n,int* ScalarNumRef){//Task 5
     for (int i=0;i<n;i++){
-    Array[i]=(Array[i])*(ScalarNum);
+    Array[n]=(Array[n])*(ScalarNum);
     }
-    cout<<endl;
+    cout<<Array[n];
 }
 
 void Tree () { //Task 7 Function

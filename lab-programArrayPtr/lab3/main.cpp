@@ -16,28 +16,28 @@ int main() {
 
     system("pause");
 
-    cout<<"Task 3:\n\n";
+    cout<<"\nTask 3:\n\n";
 
     ArrayAddress ();//Task 3
 
     system("pause\n");
 
-    cout<<"Task 4:\n\n";
+    cout<<"\nTask 4:\n\n";
 
     Scaler ();//Task 4
 
     system("pause\n");
 
-    cout<<"Task 5:\n\n";
+    cout<<"\nTask 5:\n\n";
 
     ArrayReference (&Array[0],6,&ScalarNum);//Task 5
 
-    cout<<"Task 6:\n\n";
+    cout<<"\nTask 6:\n\n";
 
     ArrayAddress (); //Task 6
 
 
-    cout <<"Task 7\n\n"<<endl;
+    cout <<"\nTask 7\n\n"<<endl;
 
     Tree();//Task7
 
