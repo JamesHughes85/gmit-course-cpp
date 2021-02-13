@@ -1,6 +1,6 @@
 /*JAMES HUGHES 12/02/2021 - PROGRAMMING WITH C++
 LECTURER - STEPHEN FOY - GMIT*/
-/*#include <iostream>
+#include <iostream>
 #include "LabInfo.h"
 using namespace std;
 
@@ -16,4 +16,3 @@ int main(){
 return 0;
 }
 
-*/
