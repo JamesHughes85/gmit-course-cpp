@@ -1,3 +1,0 @@
-# gmit-course-cpp
-
-Test
