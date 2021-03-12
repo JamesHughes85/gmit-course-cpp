@@ -1,4 +1,7 @@
 // James Hughes C++ Lab 6 - 12/03/21
+#include <iostream>
+#include "footballclub.h"
+using namespace std;
 #ifndef PLAYER_H_INCLUDED
 #define PLAYER_H_INCLUDED
 #endif
@@ -11,21 +14,21 @@ private:
     int mobileNumber;
     int dob;
 public:
- Player(string forename, string surname);
-}
- Player(string forename, string surname, int mobileNumber, string position){
+    Player();
+    Player(string forename, string surname);
+
 
     void printPlayerInfo();
     string getForename();
     string getSurname();
-
     void setName(string name);
 
     void setMobileNumber(int mobileNumber);
     int getMobileNumber();
 
     void setDOB(string Year){
-
-    }
+}
+    int getDOB(){
+        return dob;
 
 };
