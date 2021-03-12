@@ -1,4 +1,4 @@
-// James Hughes C++ Lab 5 - 26/02/21
+// James Hughes C++ Lab 6 - 12/03/21
 #include <iostream>
 using namespace std;
 #include "football_club.h"
